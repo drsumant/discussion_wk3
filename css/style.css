@@ -1,3 +1,41 @@
 html {
-  background: beige;
+  font-family: "Andika", Courier, monospace;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  padding: 2% 5%;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+nav > ul {
+  margin-top: 2%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  margin-bottom: 7%;
+}
+h1,
+h2 {
+  font-family: "Andika", Courier, monospace;
+  font-weight: 500;
+  color: white;
+  font-size: 80px;
+  margin-bottom: 32px;
+}
+
+img {
+  width: 20%;
+  border-radius: 10px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
