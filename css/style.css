@@ -7,6 +7,7 @@ html {
     rgba(237, 221, 83, 1) 100%
   );
   padding: 2% 5%;
+  color: white;
 }
 
 nav {
@@ -28,7 +29,6 @@ h1,
 h2 {
   font-family: "Andika", Courier, monospace;
   font-weight: 500;
-  color: white;
   font-size: 80px;
   margin-bottom: 32px;
 }
@@ -36,6 +36,7 @@ h2 {
 img {
   width: 20%;
   border-radius: 10px;
+  border: 2px white solid;
   margin-top: 32px;
   margin-bottom: 32px;
 }
